@@ -1,5 +1,7 @@
 ﻿
 //Using llibreriesProva;
+//static using FunctionsLibrary;
+
 
 // See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
@@ -16,5 +18,9 @@ static void requadre()
 }
 
 requadre();
+
+// Call the function to print a rectangle
+FunctionsLibrary.PrintRectangle(5, 3);
+
 
 
